@@ -9,8 +9,8 @@
 
 .container{
     width: 100%;
-    height: 100vh;
-    min-width: 700px;
+    height: 200vh;
+    min-width: 100px;
     background: linear-gradient(135deg, #cf9aff, #95c0ff);
     
 }
@@ -36,7 +36,7 @@
     font-size: 20px;
     background: linear-gradient( #9418fd,#571094);
     border: none;
-    border-radius: 50px;
+    border-radius: 40px;
     cursor: pointer;
     color:white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -46,4 +46,22 @@
 .container button img{
     width: 30px;
     margin-right: 10px;
+}
+.notes-list{
+    margin: 20px 50px;
+    width: 100%;
+    border-radius: 20px;
+    max-width: 500px;
+    min-height: 150px;
+    background: white;
+    padding: 15px;
+    outline: none;
+    position: relative;
+}
+.notes-list img{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 25px;
+    cursor: pointer;
 }
